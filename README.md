@@ -1,3 +1,3 @@
 # Counter Application
 
-# Live application https://shahir-abdullah.github.io/CounterApp/
+Live application https://shahir-abdullah.github.io/CounterApp/
