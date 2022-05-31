@@ -1,6 +1,36 @@
 body{
     background-color: black;
-    padding-top: 20rem;
+    padding-top: 15rem;
+}
+
+.timerBody{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    color: white;
+    margin-bottom: 2rem;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+    cursor: default;
+}
+.btnTimer{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.timer{
+    flex:1;
+    border: 2px solid;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.timer:first-child{
+    margin-right: 50px;
 }
 
 .counterbody{
@@ -15,12 +45,6 @@ body{
 .txtCounter{
     color: rgb(255, 255, 255);
     font-size: 8rem;
-}
-
-.btnCounter{
-    background-color: rgb(241, 241, 241);
-    margin: auto;
-    width: 5%;
 }
 
 .btn{
