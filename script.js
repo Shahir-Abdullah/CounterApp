@@ -15,6 +15,7 @@ let h = 0;
 let cnt = 0;
 let startClicked = false;
 
+var performCount = makeCounter();
 
 function timer(){
     times = timerBody.innerHTML.split(":");
@@ -64,7 +65,15 @@ startBtn.addEventListener("click", () => {
 });
 
 btn.addEventListener("click", () => {
-    cnt++;
-    textArea.innerHTML =  cnt;
+    textArea.innerHTML =  performCount();
 });
 
+
+function makeCounter(){
+    var count = 0;
+    function counter(){
+        count = count + 1;
+        return count;
+    }
+    return counter;
+}
